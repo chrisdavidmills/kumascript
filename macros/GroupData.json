@@ -1378,6 +1378,15 @@
             "properties": [ "Navigator.syncManager"],
             "events":     []
         },
+        "Reporting API": {
+            "interfaces": [ "ReportingObserver",
+                            "Report",
+                            "DeprecationReportBody",
+                            "InterventionReportBody",
+                            "CrashReportBody",
+                            "FeaturePolicyViolationReportBody"],
+            "dictionaries": [ "ReportingObserverOptions"]
+        },
         "Resize Observer API": {
             "overview":   [ "Resize Observer API" ],
             "interfaces": [ "ResizeObservation",
